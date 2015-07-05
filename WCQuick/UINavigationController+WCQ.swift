@@ -8,13 +8,13 @@
 
 import UIKit
 
-extension UINavigationController {
+public extension UINavigationController {
 	//  使用某纯色图片填充navigationBar
 	//  去掉shadow
 	//  将tintColor设置为白色
 	//  讲titleColor设置为白色
 	//  应该是国内很多应用需要的navigationBar样式了
-	func barUsePureColorImage(image:UIImage?) -> Self {
+	public func barUsePureColorImage(image:UIImage?) -> Self {
 		navigationBar.setBackgroundImage(image, forBarMetrics: UIBarMetrics.Default)
 		navigationBar.shadowImage = UIImage()
 		navigationBar.tintColor = UIColor.whiteColor()

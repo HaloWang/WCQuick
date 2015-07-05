@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension Double {
-	var f : CGFloat {
+public extension Double {
+	public var f : CGFloat {
 		return CGFloat(self)
 	}
 }

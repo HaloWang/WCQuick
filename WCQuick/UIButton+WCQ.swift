@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIButton {
+public extension UIButton {
 	/// 返回一个 ButtonType 为 Custom 的 UIButton
 	class func custom() -> UIButton {
 		return UIButton.buttonWithType(UIButtonType.Custom) as! UIButton
@@ -22,7 +22,7 @@ extension UIButton {
 	
 	:returns: self
 	*/
-	func target(target : AnyObject?, upInsideAction : Selector) -> Self{
+	public func target(target : AnyObject?, upInsideAction : Selector) -> Self{
 		addTarget(target, action : upInsideAction, forControlEvents:.TouchUpInside)
 		return self
 	}
@@ -34,27 +34,27 @@ extension UIButton {
 	
 	:returns: self
 	*/
-	func backgroundImageForNormal(image : UIImage?) -> Self {
+	public func backgroundImageForNormal(image : UIImage?) -> Self {
 		setBackgroundImage(image, forState: .Normal)
 		return self
 	}
 	
-	func imageForNormal(image : UIImage?) -> Self {
+	public func imageForNormal(image : UIImage?) -> Self {
 		setImage(image, forState: .Normal)
 		return self
 	}
 	
-	func title(title : String) -> Self {
+	public func title(title : String) -> Self {
 		setTitle(title, forState: .Normal)
 		return self
 	}
 	
-	func titleColor(titleColor : UIColor) -> Self {
+	public func titleColor(titleColor : UIColor) -> Self {
 		setTitleColor(titleColor, forState: .Normal)
 		return self
 	}
 	
-	func enabled(enabled: Bool) -> Self {
+	public func enabled(enabled: Bool) -> Self {
 		self.enabled = enabled
 		return self
 	}
@@ -66,11 +66,11 @@ extension UIButton {
 	
 	:returns: self
 	*/
-	func title(title: String, titleColor: UIColor) -> Self {
+	public func title(title: String, titleColor: UIColor) -> Self {
 		return self.title(title).titleColor(titleColor)
 	}
 	
-	func titleFont(font:UIFont) -> Self {
+	public func titleFont(font:UIFont) -> Self {
 		titleLabel?.font(font)
 		return self
 	}

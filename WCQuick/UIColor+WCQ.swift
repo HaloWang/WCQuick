@@ -8,26 +8,26 @@
 
 import UIKit
 
-let WCWhiteColor = UIColor.whiteColor()
+public let WCWhiteColor = UIColor.whiteColor()
 
-let WCBlackColor = UIColor.blackColor()
+public let WCBlackColor = UIColor.blackColor()
 
-let WCGrayColor = UIColor.darkGrayColor()
+public let WCGrayColor = UIColor.darkGrayColor()
 
 /// 系统分割线颜色
-var WCSystemSeparatorColor : UIColor {
+public var WCSystemSeparatorColor : UIColor {
 	return UIColor(red: 200/255, green: 199/255, blue: 204/255, alpha: 1)
 }
 
-func RGB(red:CGFloat, green:CGFloat, blue:CGFloat) -> UIColor {
+public func RGB(red:CGFloat, green:CGFloat, blue:CGFloat) -> UIColor {
 	return UIColor(red: red/255, green: green/255, blue: blue/255, alpha: 1)
 }
 
-func RGBA(red:CGFloat, green:CGFloat, blue:CGFloat, alpha:CGFloat) -> UIColor {
+public func RGBA(red:CGFloat, green:CGFloat, blue:CGFloat, alpha:CGFloat) -> UIColor {
 	return UIColor(red: red/255, green: green/255, blue: blue/255, alpha: alpha)
 }
 
-extension UIColor {
+public extension UIColor {
 	
 	/**
 	使用 hex 色值初始化 UIColor

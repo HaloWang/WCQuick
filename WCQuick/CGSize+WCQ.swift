@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension CGSize {
-	func scaleTo(scale:CGFloat) -> CGSize {
+public extension CGSize {
+	public func scaleTo(scale:CGFloat) -> CGSize {
 		return CGSize(width: width*scale, height: height*scale)
 	}
 }

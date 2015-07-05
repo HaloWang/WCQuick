@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension UISegmentedControl {
-	func selectedSegmentIndex(selectedSegmentIndex:Int) -> Self {
+public extension UISegmentedControl {
+	public func selectedSegmentIndex(selectedSegmentIndex:Int) -> Self {
 		self.selectedSegmentIndex = selectedSegmentIndex
 		return self
 	}

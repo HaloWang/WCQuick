@@ -8,54 +8,54 @@
 
 import UIKit
 
-extension UITextView {
+public extension UITextView {
 	
-	func returnKeyType(returnKeyType : UIReturnKeyType) -> Self {
+	public func returnKeyType(returnKeyType : UIReturnKeyType) -> Self {
 		self.returnKeyType = returnKeyType
 		return self
 	}
 	
-	func font(font : UIFont) -> Self {
+	public func font(font : UIFont) -> Self {
 		self.font = font
 		return self
 	}
 	
-	func textAlignment(textAlignment : NSTextAlignment) -> Self {
+	public func textAlignment(textAlignment : NSTextAlignment) -> Self {
 		self.textAlignment = textAlignment
 		return self
 	}
 	
-	func keyboardType(keyboardType : UIKeyboardType) -> Self {
+	public func keyboardType(keyboardType : UIKeyboardType) -> Self {
 		self.keyboardType = keyboardType
 		return self
 	}
 	
-	func secureTextEntry(secureTextEntry : Bool) -> Self {
+	public func secureTextEntry(secureTextEntry : Bool) -> Self {
 		self.secureTextEntry = secureTextEntry
 		return self
 	}
 	
-	func textColor(color:UIColor) -> Self {
+	public func textColor(color:UIColor) -> Self {
 		self.textColor = color
 		return self
 	}
 	
-	func text(text : String?) -> Self {
+	public func text(text : String?) -> Self {
 		self.text = text
 		return self
 	}
 	
-	func editable(editable : Bool) -> Self {
+	public func editable(editable : Bool) -> Self {
 		self.editable = editable
 		return self
 	}
 	
-	func selectable(selectable : Bool) -> Self {
+	public func selectable(selectable : Bool) -> Self {
 		self.selectable = selectable
 		return self
 	}
 	
-	func textContainerInset(textContainerInset : UIEdgeInsets) -> Self {
+	public func textContainerInset(textContainerInset : UIEdgeInsets) -> Self {
 		self.textContainerInset = textContainerInset
 		return self
 	}

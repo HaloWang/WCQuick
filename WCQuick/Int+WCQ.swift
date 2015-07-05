@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension Int {
-	var f : CGFloat {
+public extension Int {
+	public var f : CGFloat {
 		return CGFloat(self)
 	}
 }

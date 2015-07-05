@@ -11,7 +11,7 @@ import Foundation
 /**
 最后执行某事，不阻碍 UI
 */
-func async(block:() -> Void) {
+public func async(block:() -> Void) {
 	dispatch_async(dispatch_get_main_queue(), block)
 }
 
@@ -21,6 +21,6 @@ func async(block:() -> Void) {
 :param: second 多少秒
 :param: block  做什么
 */
-func after(#second : Double, block:()->Void) {
+public func after(#second : Double, block:()->Void) {
 	dispatch_after(dispatch_time(DISPATCH_TIME_NOW, Int64(second * Double(NSEC_PER_SEC))), dispatch_get_main_queue(), block)
 }

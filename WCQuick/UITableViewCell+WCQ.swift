@@ -8,8 +8,8 @@
 
 import UIKit
 
-extension UITableViewCell {
-	func selectionStyle(selectionStyle:UITableViewCellSelectionStyle) -> Self {
+public extension UITableViewCell {
+	public func selectionStyle(selectionStyle:UITableViewCellSelectionStyle) -> Self {
 		self.selectionStyle = selectionStyle
 		return self
 	}

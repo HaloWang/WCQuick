@@ -8,10 +8,10 @@
 
 import Foundation
 
-var ApplicationBuildVersion : String {
+public var ApplicationBuildVersion : String {
 	return NSBundle.mainBundle().infoDictionary!["CFBundleVersion"] as! String
 }
 
-var ApplicationVersion : String {
+public var ApplicationVersion : String {
 	return NSBundle.mainBundle().infoDictionary!["CFBundleShortVersionString"] as! String
 }

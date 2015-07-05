@@ -8,13 +8,13 @@
 
 import UIKit
 
-extension UIImageView {
-	func image(image : UIImage?) -> Self {
+public extension UIImageView {
+	public func image(image : UIImage?) -> Self {
 		self.image = image
 		return self
 	}
 	
-	func image(named name: String) -> Self {
+	public func image(named name: String) -> Self {
 		return image(UIImage(named: name))
 	}
 }

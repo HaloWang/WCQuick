@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UITableView {
+public extension UITableView {
 	/**
 	同时设置 dataSource 和 delegate
 	
@@ -16,18 +16,18 @@ extension UITableView {
 	
 	:returns: self ( For Chain Style )
 	*/
-	func dataSourceAndDelegate(dataSourceAndDelegate: protocol<UITableViewDataSource, UITableViewDelegate>? ) -> Self {
+	public func dataSourceAndDelegate(dataSourceAndDelegate: protocol<UITableViewDataSource, UITableViewDelegate>? ) -> Self {
 		delegate = dataSourceAndDelegate
 		dataSource = dataSourceAndDelegate
 		return self
 	}
 	
-	func separatorColor(separatorColor:UIColor) -> Self {
+	public func separatorColor(separatorColor:UIColor) -> Self {
 		self.separatorColor = separatorColor
 		return self
 	}
 	
-	func separatorStyle(separatorStyle:UITableViewCellSeparatorStyle) -> Self {
+	public func separatorStyle(separatorStyle:UITableViewCellSeparatorStyle) -> Self {
 		self.separatorStyle = separatorStyle
 		return self
 	}
@@ -40,12 +40,12 @@ extension UITableView {
 	
 	:returns: self ( For Chain Style )
 	*/
-	func register(#cellClass: AnyClass, reuseIdentifier: String) -> Self {
+	public func register(#cellClass: AnyClass, reuseIdentifier: String) -> Self {
 		self.registerClass(cellClass, forCellReuseIdentifier: reuseIdentifier)
 		return self
 	}
 	
-	func rowHeight(rowHeight:CGFloat) -> Self {
+	public func rowHeight(rowHeight:CGFloat) -> Self {
 		self.rowHeight = rowHeight
 		return self
 	}

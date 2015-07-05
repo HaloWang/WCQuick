@@ -8,13 +8,13 @@
 
 import UIKit
 
-extension UICollectionView {
-	func dataSource(dataSource:UICollectionViewDataSource) -> Self {
+public extension UICollectionView {
+	public func dataSource(dataSource:UICollectionViewDataSource) -> Self {
 		self.dataSource = dataSource
 		return self
 	}
 	
-	func register(#cellClass: AnyClass, reuseIdentifier: String) -> Self {
+	public func register(#cellClass: AnyClass, reuseIdentifier: String) -> Self {
 		self.registerClass(cellClass, forCellWithReuseIdentifier: reuseIdentifier)
 		return self
 	}

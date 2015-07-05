@@ -8,18 +8,18 @@
 
 import UIKit
 
-extension CGFloat {
+public extension CGFloat {
 	
-	var size : CGSize {
+	public var size : CGSize {
 		return CGSize(width: self, height: self)
 	}
 	
-	var origin : CGPoint {
+	public var origin : CGPoint {
 		return CGPoint(x: self, y: self)
 	}
 	
 	/// 很多时候需要设置 ×2 的属性
-	var double : CGFloat {
+	public var double : CGFloat {
 		return self * 2
 	}
 }
