@@ -94,8 +94,8 @@ public extension UIView {
 		var screen_Y: CGFloat = 0
 		var tempView = self
 		while !tempView.isKindOfClass(UIWindow) {
-			screen_X += tempView.x
-			screen_Y += tempView.y
+			screen_X += tempView.left
+			screen_Y += tempView.top
 			tempView = tempView.superview!
 			if tempView.isKindOfClass(UIScrollView) {
 				screen_X -= (tempView as! UIScrollView).contentOffset.x

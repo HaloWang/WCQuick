@@ -7,199 +7,217 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		612E8513AE65AA8EE9683000 /* Pods-WCQuick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DE4BBF15333E87D17AC7D26 /* Pods-WCQuick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		650A729D931E9B1936C40CC6 /* Pods-WCQuick-WCLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1531A668254A1F92878FBE7 /* Pods-WCQuick-WCLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D2AACFB5F3D8D6345D17886 /* UIView+WCLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD08FB585593EAE91924B0C /* UIView+WCLayout.swift */; };
-		969E94839D285ED9B13F87D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE614CC66091C75AF18613C /* UIKit.framework */; };
-		A9F9D9385D88E9DFD549B15D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEC384D38824A5B35117E77 /* Foundation.framework */; };
-		D1457C57A2DB0A4B81D32556 /* Pods-WCQuick-WCLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B48D377BA2A869A511A7340 /* Pods-WCQuick-WCLayout-dummy.m */; };
-		E0DF0AFCEBDC432611466F2D /* Pods-WCQuick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A68F4F5F7F1AD0B433B2990E /* Pods-WCQuick-dummy.m */; };
-		F368FFF07F1CEEC3E1AFCC01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEC384D38824A5B35117E77 /* Foundation.framework */; };
+		02B8DB61CC86CEE3E9A20C67 /* Pods-WCQuick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26583A66E593C1DA7AC4C090 /* Pods-WCQuick-dummy.m */; };
+		06454D1F6CA85E4903A21546 /* Pods-WCQuick-WCLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 420C49B70C6B0FB5CCBCCA4E /* Pods-WCQuick-WCLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22919014726C994DB340F9D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA32502E2DAF4D55F4069BA /* Foundation.framework */; };
+		3DC1B3A803B220355C27DABF /* Pods-WCQuick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 412BB3647096CA4595DC0A58 /* Pods-WCQuick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F01FBB20DFD2E33E981BC14 /* UIView+WCLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF4BD7F5204BF2EB06D453 /* UIView+WCLayout.swift */; };
+		670FDDC5CC0F646A19F3A977 /* Pods-WCQuick-WCLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D065C420B9170FBD73ABED /* Pods-WCQuick-WCLayout-dummy.m */; };
+		9C0CA8725757193B2CF870A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C004FB942ED6C39DE3FD1CB3 /* UIKit.framework */; };
+		DF3C966B4E2D89ED22432E33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA32502E2DAF4D55F4069BA /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		399D6BDB76F332265141A7B8 /* PBXContainerItemProxy */ = {
+		DB8D14322D30BC79BA493DB9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D8561F83677740CC15ECB315 /* Project object */;
+			containerPortal = B5997916E4A1F1236FC48E91 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 926E4806716E5F3C21F8D6FF;
+			remoteGlobalIDString = 9CBC85570DE2CF24AF488B5A;
 			remoteInfo = "Pods-WCQuick-WCLayout";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08EF5A975234C59FA0CE081B /* Pods-WCQuick-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WCQuick-frameworks.sh"; sourceTree = "<group>"; };
-		0D4910937A06E9691AA77A12 /* Pods-WCQuick-WCLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCQuick-WCLayout-prefix.pch"; sourceTree = "<group>"; };
-		18315F7653E69A618A980401 /* Pods-WCQuick-WCLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCQuick-WCLayout.xcconfig"; sourceTree = "<group>"; };
-		1CC3F9803072C959D265A1D9 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		257AD40A0AA6C42A81C75B7D /* WCLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WCLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AD08FB585593EAE91924B0C /* UIView+WCLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+WCLayout.swift"; path = "WCLayout/UIView+WCLayout.swift"; sourceTree = "<group>"; };
-		38EE50ED68B86C66A1C2EC6A /* Pods-WCQuick-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCQuick-environment.h"; sourceTree = "<group>"; };
-		3DEC384D38824A5B35117E77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		42B903B5ADEF26D6B294703C /* Pods-WCQuick-WCLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WCQuick-WCLayout.modulemap"; sourceTree = "<group>"; };
-		48F66E79F69FFF8059E50F26 /* Pods_WCQuick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCQuick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EE614CC66091C75AF18613C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		5467960A6730F4260932E0FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6DE4BBF15333E87D17AC7D26 /* Pods-WCQuick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCQuick-umbrella.h"; sourceTree = "<group>"; };
-		7AC37F721046F52C81082766 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B2CF35DD3B8AD9791A539D1 /* Pods-WCQuick-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WCQuick-acknowledgements.markdown"; sourceTree = "<group>"; };
-		89268E54B619E6E58B9E8BBD /* Pods-WCQuick-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WCQuick-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B48D377BA2A869A511A7340 /* Pods-WCQuick-WCLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WCQuick-WCLayout-dummy.m"; sourceTree = "<group>"; };
-		A68F4F5F7F1AD0B433B2990E /* Pods-WCQuick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WCQuick-dummy.m"; sourceTree = "<group>"; };
-		B1531A668254A1F92878FBE7 /* Pods-WCQuick-WCLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCQuick-WCLayout-umbrella.h"; sourceTree = "<group>"; };
-		B6D44D8695431B4081180E9B /* Pods-WCQuick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCQuick.debug.xcconfig"; sourceTree = "<group>"; };
-		C9454544C62EB9E040CF5196 /* Pods-WCQuick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCQuick.release.xcconfig"; sourceTree = "<group>"; };
-		DE1F27AFE91A0EC2F018A8BA /* Pods-WCQuick-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WCQuick-resources.sh"; sourceTree = "<group>"; };
-		E737FCF5726342232A8F639A /* Pods-WCQuick-WCLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCQuick-WCLayout-Private.xcconfig"; sourceTree = "<group>"; };
-		FE02DE6F80D86038637E894B /* Pods-WCQuick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WCQuick.modulemap"; sourceTree = "<group>"; };
+		002E13C78750FE402D4A7E83 /* WCLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WCLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC68431912FA0A17E45A47B /* Pods-WCQuick-WCLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCQuick-WCLayout.xcconfig"; sourceTree = "<group>"; };
+		26583A66E593C1DA7AC4C090 /* Pods-WCQuick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WCQuick-dummy.m"; sourceTree = "<group>"; };
+		2F6EECA311482AFC3B132933 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B9AB35BE66AC8831F183B1B /* Pods-WCQuick-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WCQuick-frameworks.sh"; sourceTree = "<group>"; };
+		3EA32502E2DAF4D55F4069BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		412BB3647096CA4595DC0A58 /* Pods-WCQuick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCQuick-umbrella.h"; sourceTree = "<group>"; };
+		420C49B70C6B0FB5CCBCCA4E /* Pods-WCQuick-WCLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCQuick-WCLayout-umbrella.h"; sourceTree = "<group>"; };
+		4D6338E8377BF85B73961BA5 /* Pods-WCQuick-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WCQuick-resources.sh"; sourceTree = "<group>"; };
+		5FAF4BD7F5204BF2EB06D453 /* UIView+WCLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+WCLayout.swift"; path = "WCLayout/UIView+WCLayout.swift"; sourceTree = "<group>"; };
+		6379B83AB7218AFB2A60D229 /* Pods-WCQuick-WCLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCQuick-WCLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		74C714CDB3DA615BE6673F91 /* Pods_WCQuick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WCQuick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D065C420B9170FBD73ABED /* Pods-WCQuick-WCLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WCQuick-WCLayout-dummy.m"; sourceTree = "<group>"; };
+		8BAE1005F61E9959A2CBCA30 /* Pods-WCQuick-WCLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WCQuick-WCLayout.modulemap"; sourceTree = "<group>"; };
+		9BC14707DB5A7853112C91D2 /* Pods-WCQuick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCQuick.release.xcconfig"; sourceTree = "<group>"; };
+		B33EB9F5AF9C33FBFF97727D /* Pods-WCQuick-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WCQuick-acknowledgements.plist"; sourceTree = "<group>"; };
+		BD3AEF901E3D8002A1314780 /* Pods-WCQuick-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCQuick-environment.h"; sourceTree = "<group>"; };
+		C004FB942ED6C39DE3FD1CB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C58EF355EFDF655D34B3018D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6595886D0AE23B23CF77126 /* Pods-WCQuick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WCQuick.debug.xcconfig"; sourceTree = "<group>"; };
+		DE57C36B679B101AE0195985 /* Pods-WCQuick-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WCQuick-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED2DF7F4A62282CDED489E10 /* Pods-WCQuick-WCLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WCQuick-WCLayout-prefix.pch"; sourceTree = "<group>"; };
+		EE3218E94A6A96574280E8DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8EF8C7E785B1234704C30F5 /* Pods-WCQuick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WCQuick.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5340D8C1498F9B936D8BDC10 /* Frameworks */ = {
+		3456B9400FD4BB873327333C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F9D9385D88E9DFD549B15D /* Foundation.framework in Frameworks */,
-				969E94839D285ED9B13F87D4 /* UIKit.framework in Frameworks */,
+				DF3C966B4E2D89ED22432E33 /* Foundation.framework in Frameworks */,
+				9C0CA8725757193B2CF870A0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D00D22D79A498DD002A2F07D /* Frameworks */ = {
+		9653C58A890A7CDACC5F6CFB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F368FFF07F1CEEC3E1AFCC01 /* Foundation.framework in Frameworks */,
+				22919014726C994DB340F9D6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0103590B79A969B7FF7CB9F4 /* Pods-WCQuick */ = {
+		13A3B478D8CCCF820A600FB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7AC37F721046F52C81082766 /* Info.plist */,
-				FE02DE6F80D86038637E894B /* Pods-WCQuick.modulemap */,
-				7B2CF35DD3B8AD9791A539D1 /* Pods-WCQuick-acknowledgements.markdown */,
-				89268E54B619E6E58B9E8BBD /* Pods-WCQuick-acknowledgements.plist */,
-				A68F4F5F7F1AD0B433B2990E /* Pods-WCQuick-dummy.m */,
-				38EE50ED68B86C66A1C2EC6A /* Pods-WCQuick-environment.h */,
-				08EF5A975234C59FA0CE081B /* Pods-WCQuick-frameworks.sh */,
-				DE1F27AFE91A0EC2F018A8BA /* Pods-WCQuick-resources.sh */,
-				6DE4BBF15333E87D17AC7D26 /* Pods-WCQuick-umbrella.h */,
-				B6D44D8695431B4081180E9B /* Pods-WCQuick.debug.xcconfig */,
-				C9454544C62EB9E040CF5196 /* Pods-WCQuick.release.xcconfig */,
+				23B343733C09E4CA5162AE1B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23B343733C09E4CA5162AE1B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3EA32502E2DAF4D55F4069BA /* Foundation.framework */,
+				C004FB942ED6C39DE3FD1CB3 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		292F3D83D3CEE54D10428786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74C714CDB3DA615BE6673F91 /* Pods_WCQuick.framework */,
+				002E13C78750FE402D4A7E83 /* WCLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5077447C49DA3FCAE1C248DA /* WCLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5FAF4BD7F5204BF2EB06D453 /* UIView+WCLayout.swift */,
+				C86489C49A37593769D9994E /* Support Files */,
+			);
+			path = WCLayout;
+			sourceTree = "<group>";
+		};
+		749A1BB1F153D97FCF4AB90E /* Pods-WCQuick */ = {
+			isa = PBXGroup;
+			children = (
+				EE3218E94A6A96574280E8DE /* Info.plist */,
+				F8EF8C7E785B1234704C30F5 /* Pods-WCQuick.modulemap */,
+				DE57C36B679B101AE0195985 /* Pods-WCQuick-acknowledgements.markdown */,
+				B33EB9F5AF9C33FBFF97727D /* Pods-WCQuick-acknowledgements.plist */,
+				26583A66E593C1DA7AC4C090 /* Pods-WCQuick-dummy.m */,
+				BD3AEF901E3D8002A1314780 /* Pods-WCQuick-environment.h */,
+				3B9AB35BE66AC8831F183B1B /* Pods-WCQuick-frameworks.sh */,
+				4D6338E8377BF85B73961BA5 /* Pods-WCQuick-resources.sh */,
+				412BB3647096CA4595DC0A58 /* Pods-WCQuick-umbrella.h */,
+				C6595886D0AE23B23CF77126 /* Pods-WCQuick.debug.xcconfig */,
+				9BC14707DB5A7853112C91D2 /* Pods-WCQuick.release.xcconfig */,
 			);
 			name = "Pods-WCQuick";
 			path = "Target Support Files/Pods-WCQuick";
 			sourceTree = "<group>";
 		};
-		1649809C899AC3D2411ECE66 /* Support Files */ = {
+		7811BB860F0237B97323C961 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5467960A6730F4260932E0FF /* Info.plist */,
-				42B903B5ADEF26D6B294703C /* Pods-WCQuick-WCLayout.modulemap */,
-				18315F7653E69A618A980401 /* Pods-WCQuick-WCLayout.xcconfig */,
-				E737FCF5726342232A8F639A /* Pods-WCQuick-WCLayout-Private.xcconfig */,
-				9B48D377BA2A869A511A7340 /* Pods-WCQuick-WCLayout-dummy.m */,
-				0D4910937A06E9691AA77A12 /* Pods-WCQuick-WCLayout-prefix.pch */,
-				B1531A668254A1F92878FBE7 /* Pods-WCQuick-WCLayout-umbrella.h */,
+				749A1BB1F153D97FCF4AB90E /* Pods-WCQuick */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8F672B8A30563B3B7E8F2AC = {
+			isa = PBXGroup;
+			children = (
+				2F6EECA311482AFC3B132933 /* Podfile */,
+				13A3B478D8CCCF820A600FB7 /* Frameworks */,
+				F504699C7E2B5FD3E22A2C00 /* Pods */,
+				292F3D83D3CEE54D10428786 /* Products */,
+				7811BB860F0237B97323C961 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C86489C49A37593769D9994E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C58EF355EFDF655D34B3018D /* Info.plist */,
+				8BAE1005F61E9959A2CBCA30 /* Pods-WCQuick-WCLayout.modulemap */,
+				0FC68431912FA0A17E45A47B /* Pods-WCQuick-WCLayout.xcconfig */,
+				6379B83AB7218AFB2A60D229 /* Pods-WCQuick-WCLayout-Private.xcconfig */,
+				83D065C420B9170FBD73ABED /* Pods-WCQuick-WCLayout-dummy.m */,
+				ED2DF7F4A62282CDED489E10 /* Pods-WCQuick-WCLayout-prefix.pch */,
+				420C49B70C6B0FB5CCBCCA4E /* Pods-WCQuick-WCLayout-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-WCQuick-WCLayout";
 			sourceTree = "<group>";
 		};
-		1756C87C4A9CBC57FEF22BD6 /* Products */ = {
+		F504699C7E2B5FD3E22A2C00 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				48F66E79F69FFF8059E50F26 /* Pods_WCQuick.framework */,
-				257AD40A0AA6C42A81C75B7D /* WCLayout.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		252523392559CEEB0C62257C /* WCLayout */ = {
-			isa = PBXGroup;
-			children = (
-				2AD08FB585593EAE91924B0C /* UIView+WCLayout.swift */,
-				1649809C899AC3D2411ECE66 /* Support Files */,
-			);
-			path = WCLayout;
-			sourceTree = "<group>";
-		};
-		306C3C48D048B5C7F7E49BAD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E720066EDA7C0D6B4F210166 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A9C77716081E1885CE81AE4A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0103590B79A969B7FF7CB9F4 /* Pods-WCQuick */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AB00B6FBBF7A2FE9785DD650 = {
-			isa = PBXGroup;
-			children = (
-				1CC3F9803072C959D265A1D9 /* Podfile */,
-				306C3C48D048B5C7F7E49BAD /* Frameworks */,
-				B533A6F1232EB84D0CB112D0 /* Pods */,
-				1756C87C4A9CBC57FEF22BD6 /* Products */,
-				A9C77716081E1885CE81AE4A /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		B533A6F1232EB84D0CB112D0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				252523392559CEEB0C62257C /* WCLayout */,
+				5077447C49DA3FCAE1C248DA /* WCLayout */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		E720066EDA7C0D6B4F210166 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3DEC384D38824A5B35117E77 /* Foundation.framework */,
-				4EE614CC66091C75AF18613C /* UIKit.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		885ABECA0FA16FA2CCCB3596 /* Headers */ = {
+		4C31B6BCB59196CB95C0DBC9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				650A729D931E9B1936C40CC6 /* Pods-WCQuick-WCLayout-umbrella.h in Headers */,
+				06454D1F6CA85E4903A21546 /* Pods-WCQuick-WCLayout-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF569DAF7AC215C93359124C /* Headers */ = {
+		696B63EF3B95C78AFC8617DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				612E8513AE65AA8EE9683000 /* Pods-WCQuick-umbrella.h in Headers */,
+				3DC1B3A803B220355C27DABF /* Pods-WCQuick-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		926E4806716E5F3C21F8D6FF /* Pods-WCQuick-WCLayout */ = {
+		95A0D3D824A184CFA6878E75 /* Pods-WCQuick */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F82C788FFB90CA27C81F858E /* Build configuration list for PBXNativeTarget "Pods-WCQuick-WCLayout" */;
+			buildConfigurationList = 50D8CA4CAD71283624396203 /* Build configuration list for PBXNativeTarget "Pods-WCQuick" */;
 			buildPhases = (
-				6BEA630085884FD27621DE4C /* Sources */,
-				5340D8C1498F9B936D8BDC10 /* Frameworks */,
-				885ABECA0FA16FA2CCCB3596 /* Headers */,
+				5B20AB8143ECCFF9EBA24B14 /* Sources */,
+				9653C58A890A7CDACC5F6CFB /* Frameworks */,
+				696B63EF3B95C78AFC8617DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450969CDA32E07AEBFE07C13 /* PBXTargetDependency */,
+			);
+			name = "Pods-WCQuick";
+			productName = "Pods-WCQuick";
+			productReference = 74C714CDB3DA615BE6673F91 /* Pods_WCQuick.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CBC85570DE2CF24AF488B5A /* Pods-WCQuick-WCLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D3628BA369C1275679FE4D7 /* Build configuration list for PBXNativeTarget "Pods-WCQuick-WCLayout" */;
+			buildPhases = (
+				E6905A5B7C2FB6FBCD9E5D9A /* Sources */,
+				3456B9400FD4BB873327333C /* Frameworks */,
+				4C31B6BCB59196CB95C0DBC9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -207,84 +225,66 @@
 			);
 			name = "Pods-WCQuick-WCLayout";
 			productName = "Pods-WCQuick-WCLayout";
-			productReference = 257AD40A0AA6C42A81C75B7D /* WCLayout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AD6979CE61AE15BAF500BE70 /* Pods-WCQuick */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1C4BA5741FD6EEB183AD943D /* Build configuration list for PBXNativeTarget "Pods-WCQuick" */;
-			buildPhases = (
-				DD22D15C47FBD13ED460F3D2 /* Sources */,
-				D00D22D79A498DD002A2F07D /* Frameworks */,
-				CF569DAF7AC215C93359124C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43E90D4974E7E4A32963E9C4 /* PBXTargetDependency */,
-			);
-			name = "Pods-WCQuick";
-			productName = "Pods-WCQuick";
-			productReference = 48F66E79F69FFF8059E50F26 /* Pods_WCQuick.framework */;
+			productReference = 002E13C78750FE402D4A7E83 /* WCLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D8561F83677740CC15ECB315 /* Project object */ = {
+		B5997916E4A1F1236FC48E91 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 3F5D61746F867C1AF3C4B1F2 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 18A2244D9B954B4E84BC1CAC /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = AB00B6FBBF7A2FE9785DD650;
-			productRefGroup = 1756C87C4A9CBC57FEF22BD6 /* Products */;
+			mainGroup = B8F672B8A30563B3B7E8F2AC;
+			productRefGroup = 292F3D83D3CEE54D10428786 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AD6979CE61AE15BAF500BE70 /* Pods-WCQuick */,
-				926E4806716E5F3C21F8D6FF /* Pods-WCQuick-WCLayout */,
+				95A0D3D824A184CFA6878E75 /* Pods-WCQuick */,
+				9CBC85570DE2CF24AF488B5A /* Pods-WCQuick-WCLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6BEA630085884FD27621DE4C /* Sources */ = {
+		5B20AB8143ECCFF9EBA24B14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1457C57A2DB0A4B81D32556 /* Pods-WCQuick-WCLayout-dummy.m in Sources */,
-				7D2AACFB5F3D8D6345D17886 /* UIView+WCLayout.swift in Sources */,
+				02B8DB61CC86CEE3E9A20C67 /* Pods-WCQuick-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD22D15C47FBD13ED460F3D2 /* Sources */ = {
+		E6905A5B7C2FB6FBCD9E5D9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0DF0AFCEBDC432611466F2D /* Pods-WCQuick-dummy.m in Sources */,
+				670FDDC5CC0F646A19F3A977 /* Pods-WCQuick-WCLayout-dummy.m in Sources */,
+				5F01FBB20DFD2E33E981BC14 /* UIView+WCLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43E90D4974E7E4A32963E9C4 /* PBXTargetDependency */ = {
+		450969CDA32E07AEBFE07C13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WCQuick-WCLayout";
-			target = 926E4806716E5F3C21F8D6FF /* Pods-WCQuick-WCLayout */;
-			targetProxy = 399D6BDB76F332265141A7B8 /* PBXContainerItemProxy */;
+			target = 9CBC85570DE2CF24AF488B5A /* Pods-WCQuick-WCLayout */;
+			targetProxy = DB8D14322D30BC79BA493DB9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1A8A4CDBF108C8CA4604E9ED /* Debug */ = {
+		4954C949297595390E35555C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -323,7 +323,36 @@
 			};
 			name = Debug;
 		};
-		26E309CE75471D513888FE49 /* Release */ = {
+		966D36F0779310B4D229755D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC14707DB5A7853112C91D2 /* Pods-WCQuick.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WCQuick/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WCQuick/Pods-WCQuick.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_WCQuick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A38A8E246AA54157C91115E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,65 +386,9 @@
 			};
 			name = Release;
 		};
-		2C3BC45DDEE097FC6DEF0D31 /* Release */ = {
+		AFF85935D59A18BC81E4535E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E737FCF5726342232A8F639A /* Pods-WCQuick-WCLayout-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-WCQuick-WCLayout/Pods-WCQuick-WCLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-WCQuick-WCLayout/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-WCQuick-WCLayout/Pods-WCQuick-WCLayout.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = WCLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3BFC3411A39F221C81732AF1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9454544C62EB9E040CF5196 /* Pods-WCQuick.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WCQuick/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-WCQuick/Pods-WCQuick.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_WCQuick;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9143D0EE5C9F89B9BBC82A4C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E737FCF5726342232A8F639A /* Pods-WCQuick-WCLayout-Private.xcconfig */;
+			baseConfigurationReference = 6379B83AB7218AFB2A60D229 /* Pods-WCQuick-WCLayout-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -441,9 +414,9 @@
 			};
 			name = Debug;
 		};
-		DB98C57B46FF9BF6BDD2C4F5 /* Debug */ = {
+		D6C87A6676C1F0895D689701 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6D44D8695431B4081180E9B /* Pods-WCQuick.debug.xcconfig */;
+			baseConfigurationReference = C6595886D0AE23B23CF77126 /* Pods-WCQuick.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -470,38 +443,65 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		E0ADD49B6F56D3DA99AD210A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6379B83AB7218AFB2A60D229 /* Pods-WCQuick-WCLayout-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-WCQuick-WCLayout/Pods-WCQuick-WCLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-WCQuick-WCLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-WCQuick-WCLayout/Pods-WCQuick-WCLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WCLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C4BA5741FD6EEB183AD943D /* Build configuration list for PBXNativeTarget "Pods-WCQuick" */ = {
+		0D3628BA369C1275679FE4D7 /* Build configuration list for PBXNativeTarget "Pods-WCQuick-WCLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB98C57B46FF9BF6BDD2C4F5 /* Debug */,
-				3BFC3411A39F221C81732AF1 /* Release */,
+				AFF85935D59A18BC81E4535E /* Debug */,
+				E0ADD49B6F56D3DA99AD210A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F5D61746F867C1AF3C4B1F2 /* Build configuration list for PBXProject "Pods" */ = {
+		18A2244D9B954B4E84BC1CAC /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A8A4CDBF108C8CA4604E9ED /* Debug */,
-				26E309CE75471D513888FE49 /* Release */,
+				4954C949297595390E35555C /* Debug */,
+				A38A8E246AA54157C91115E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F82C788FFB90CA27C81F858E /* Build configuration list for PBXNativeTarget "Pods-WCQuick-WCLayout" */ = {
+		50D8CA4CAD71283624396203 /* Build configuration list for PBXNativeTarget "Pods-WCQuick" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9143D0EE5C9F89B9BBC82A4C /* Debug */,
-				2C3BC45DDEE097FC6DEF0D31 /* Release */,
+				D6C87A6676C1F0895D689701 /* Debug */,
+				966D36F0779310B4D229755D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D8561F83677740CC15ECB315 /* Project object */;
+	rootObject = B5997916E4A1F1236FC48E91 /* Project object */;
 }

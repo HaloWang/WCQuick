@@ -1,10 +1,10 @@
 PODS:
-  - WCLayout (0.0.5)
+  - WCLayout (0.0.6)
 
 DEPENDENCIES:
   - WCLayout
 
 SPEC CHECKSUMS:
-  WCLayout: 3856d3c7047e6509e0967b1d478ae61bc4f588dc
+  WCLayout: 06f0ee5c60b2aa08570db707d0c45e7af71daaf0
 
 COCOAPODS: 0.37.2
