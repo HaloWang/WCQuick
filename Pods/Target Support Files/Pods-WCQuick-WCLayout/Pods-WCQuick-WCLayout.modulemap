@@ -1,0 +1,6 @@
+framework module WCLayout {
+  umbrella header "Pods-WCQuick-WCLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}

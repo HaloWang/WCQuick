@@ -1,0 +1,6 @@
+framework module Pods_WCQuick {
+  umbrella header "Pods-WCQuick-umbrella.h"
+
+  export *
+  module * { export * }
+}
