@@ -1,15 +1,41 @@
 # WCQuick
 
-Before use WCQuick
+#####Before use WCQuick
 
-	let label = UILabel(frame: CGRect(x: 0, y: 0, width: 320, height: 40))
-	label.text = "Text"
-	label.textColor = UIColor.redColor()
-	view.addSubview(label)
+	import UIKit
+
+	class ViewController: UIViewController {
 	
-After use WCQuick
+		let label = UILabel()
 
-	let label = UILabel()
-			.superView(view)
-			.text("Text")
-			.textColor(UIColor.redColor())
+		override func viewDidLoad() {
+			super.viewDidLoad()
+		
+			label.frame = CGRect(x: 0, y: 0, width: 320, height: 20)
+			label.text = "Text"
+			label.textColor = UIColor.redColor()
+			view.addSubview(label)
+		}
+	}
+
+
+	
+#####After use WCQuick
+
+	import UIKit
+	import WCQuick
+
+	class ViewController: UIViewController {
+	
+		let label = UILabel()
+
+		override func viewDidLoad() {
+			super.viewDidLoad()
+			
+			label.superView(view)
+				.frame(CGRect(x: 0, y: 0, width: 320, height: 20))
+				.text("Text")
+				.textColor(UIColor.redColor())
+		}
+	}
+
