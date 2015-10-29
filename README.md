@@ -1,5 +1,11 @@
 # WCQuick
 
+## Update 
+
+This repository is useless now.
+See my new framework [HaloWang/Halo](https://github.com/HaloWang/Halo)
+
+## Usage
 #####Before use WCQuick
 
 	import UIKit
